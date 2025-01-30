@@ -30,3 +30,6 @@ end)
 vim.keymap.set("n", "<C-S-N>", function()
   harpoon:list():next()
 end)
+
+-- Markdown Preview
+vim.keymap.set("n", "<leader>mp", ":MarkdownPreviewToggle<CR>")
