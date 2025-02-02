@@ -30,7 +30,7 @@ return {
           vim.keymap.set("n", "<leader>cR", "TypescriptRenameFile", { desc = "Rename File", buffer = buffer })
           vim.keymap.set("n", "K", "Hover Info", vim.lsp.buf.hover())
           vim.keymap.set("n", "gd", "Go to definition", vim.lsp.buf.definition())
-          vim.keymap.set({ "n", "v" }, "<leader>ca", "Code Action", vim.lsp.buf.code_action())
+          --          vim.keymap.set({ "n", "v" }, "<leader>ca", "Code Action", vim.lsp.buf.code_action())
         end)
       end,
     },

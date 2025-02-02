@@ -40,7 +40,7 @@ return {
   },
 
 --]]
-
+  { "nvim-tree/nvim-web-devicons", opts = {} },
   -- override nvim-cmp and add cmp-emoji
   -- change some telescope options and a keymap to browse plugin files
   {
